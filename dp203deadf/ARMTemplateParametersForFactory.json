@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dp203deadf"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"DP203AzureSqlDatabase_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://dp203adlsstg.dfs.core.windows.net/"
+		},
+		"DP203AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "dp203dedbserver.database.windows.net"
+		},
+		"DP203AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "dp203dedb"
+		},
+		"DP203AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "dp203"
+		}
+	}
+}
